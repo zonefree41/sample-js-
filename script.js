@@ -18,12 +18,12 @@ for (let i = 0; i < pokemonList.length; i++) {
         " (height: " +
         pokemonList[i].height +
         ")" +
-        pokemonLarge +
+        pokemonBig +
         " <br>"
     );
   } else {
     document.write(
-      pokemonList[i].name + " (height: " + pokemonBig[i].height + ")<br>"
+      pokemonList[i].name + " (height: " + pokemonList[i].height + ")<br>"
     );
   }
 }
